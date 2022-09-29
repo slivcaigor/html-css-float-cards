@@ -5,11 +5,69 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
+  width: 60%;
+  margin: 0px auto;
+}
+
+/* Header Styling */
+.title h1 {
+  text-align: center;
+  color: #E53170;
+  font-size: 36px;
+  padding: 35px 0px 50px;
   font-family: 'Fredoka One', cursive;
 }
 
-#smiling-heart {
-  height: 40px;
-  vertical-align: middle;
+.title-text {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Fredoka', sans-serif;
+  padding-bottom: 50px;
+}
+
+/* Main Section Styling */
+
+.box {
+  float: left;
+  margin: 15px 15px 30px 15px;
+  width: calc(100% / 3 - 30px);
+  background-color: black;
+  box-shadow: 0 0 10px #555;
+}
+
+.top-layer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  float: left;
+  width: 100px;
+}
+
+.name {
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  font-size: 18px;
+  display: block;
+  padding: 10px 0px 0px 115px;
+}
+
+.role {
+  color: white;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 16px;
+  display: block;
+  padding: 5px 0px 0px 115px;
+}
+
+.email a {
+  color: rgb(76, 172, 206);
+  font-family: 'Fredoka', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0px 10px 115px;
 }

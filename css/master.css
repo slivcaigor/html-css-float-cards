@@ -28,39 +28,22 @@
 
 /* Main Section Styling */
 
-.box {
-  float: left;
-  margin: 15px 15px 30px 15px;
-  width: calc(100% / 3 - 30px);
-  background-color: black;
-  box-shadow: 0 0 10px #555;
-}
-
-.top-layer::after {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
-}
-
-img {
-  float: left;
-  width: 100px;
 }
 
 .name {
   color: white;
   font-family: 'Fredoka One', cursive;
   font-size: 18px;
-  display: block;
-  padding: 10px 0px 0px 115px;
 }
 
 .role {
   color: white;
   font-family: 'Fredoka', sans-serif;
   font-size: 16px;
-  display: block;
-  padding: 5px 0px 0px 115px;
 }
 
 .email a {
@@ -68,6 +51,26 @@ img {
   font-family: 'Fredoka', sans-serif;
   font-size: 16px;
   text-decoration: none;
+}
+
+.box {
+  float: left;
+  width: calc(100% / 3 - 30px);
+  box-shadow: 0 0 10px #555;
+  background-color: black;
+  overflow: hidden;
+  margin: 15px 15px 30px 15px;
+}
+
+.box img {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  float: left;
+}
+
+.box span {
+  margin-left: 15px;
   display: block;
-  padding: 5px 0px 10px 115px;
+  margin: 10px 0 0 0;
 }

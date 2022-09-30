@@ -37,7 +37,10 @@
 .name {
   color: white;
   font-family: 'Fredoka One', cursive;
-  font-size: 18px;
+  font-size: 16px;
+  margin-left: 15px;
+  display: block;
+  margin: 10px 0 0 0;
 }
 
 .role {

@@ -39,14 +39,14 @@
   font-family: 'Fredoka One', cursive;
   font-size: 16px;
   margin-left: 15px;
-  display: block;
-  margin: 10px 0 0 0;
+  margin: 15px 0 5px 0;
 }
 
 .role {
   color: white;
   font-family: 'Fredoka', sans-serif;
   font-size: 16px;
+  margin: 5px 0 5px 0;
 }
 
 .email a {
@@ -54,6 +54,7 @@
   font-family: 'Fredoka', sans-serif;
   font-size: 16px;
   text-decoration: none;
+  margin: 5px 0 10px 0;
 }
 
 .box {
@@ -70,10 +71,4 @@
   height: 100px;
   margin-right: 15px;
   float: left;
-}
-
-.box span {
-  margin-left: 15px;
-  display: block;
-  margin: 10px 0 0 0;
 }
